@@ -1,0 +1,15 @@
+{% extends 'calorieapp/count.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<form action="" method="POST">
+    {% csrf_token %}
+  <div style = 'width: 400px; margin-left: auto; margin-right: auto; margin-top: 100px;' class="form-group">
+      <label>Calorie Limit</label>
+      <input type="text" name="DailyCalorieLimit" placeholder="Enter Calorie Limit" id="id_DailyCalorieLimit" class="form-control" required>
+  </div>
+    <button style = 'width: 400px; margin-left: auto; margin-right: auto;' type="submit" class="btn btn-primary btn-block">Submit</button>
+</form>
+
+
+{% endblock %}

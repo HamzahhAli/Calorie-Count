@@ -1,0 +1,42 @@
+#list1 .form-control {
+    border-color: transparent;
+  }
+  #list1 .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+  #list1 .select-input.form-control[readonly]:not([disabled]) {
+    background-color: #fbfbfb;
+  }
+
+  .skinny-list-group {
+    max-width: 400px; /* Adjust this value as per your preference */
+    margin: 20 ; /* Centers the list group horizontally */
+  }
+
+  .delete-link {
+    color: red;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .entername {
+    max-width: 400px; /* Adjust this value as per your preference */
+    margin: 0 auto ;
+  }
+  .entercalories {
+    max-width: 400px; /* Adjust this value as per your preference */
+    margin: 0 auto ;
+  }
+  .enterprotein {
+    max-width: 400px; /* Adjust this value as per your preference */
+    margin: 0 auto ;
+  }
+  .subcenter {
+    max-width: 400px; /* Adjust this value as per your preference */
+    margin: 0 auto ;
+  }
+  .d-flex justify-content-centers {
+    max-width: 400px;
+  }
+  
